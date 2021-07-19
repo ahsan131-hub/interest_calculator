@@ -1,0 +1,61 @@
+<html>
+    <head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="app">
+            <header>
+                <h1>Simple Interest Calculator</h1>
+            </header>
+            <main>
+                <form action="">
+            
+                    <div class="form-control">
+                        <label for="principal">Amount</label>
+                        <input type="number"  id="principal">  
+                    </div>
+                    <div class="form-control">
+                        <Label id="rate">Rate </Label>
+                        <input type="range" min="0" max="100" value="90"  step="0.1" id="slide_rate">  
+                        <span id="slider_output"></span>
+                    </div>
+                    <div class="form-control">
+                        <Label id="years">No. of Years</Label> 
+                        <select id="selectNumber">
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                            <option value="4">four</option>
+                            <option value="5">five</option>
+                            <option value="6">six</option>
+                            <option value="7">seven</option>
+                            <option value="8">eight</option>
+                            <option value="9">nine</option>
+                            <option value="10">Ten</option>
+                            
+                          </select>
+                    </div>
+                    
+                    <div class="form-control">
+                        <Label id="result">
+                            Interest :
+                        </Label>
+                        <span id="result"></span><br>
+                    </div> 
+                    <button onclick="compute()" >Compute</button>
+                </form>
+        
+            </main>
+            
+            
+
+        </div>
+        
+    </body>
+    <script src="/script.js">
+       
+
+    </script>
+</html>
+

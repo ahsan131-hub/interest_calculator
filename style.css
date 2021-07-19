@@ -1,0 +1,22 @@
+body {
+  background-color: black;
+  margin: 20px 200px;
+}
+.app {
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  min-width: 450px;
+  padding: 40px;
+  border-radius: 10px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  max-width: 200px;
+}
+h1 {
+  color: grey;
+}
